@@ -51,7 +51,8 @@ header{
 .container-main{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    margin: 0 auto;
+    padding: 30px 10px;
 }
 
 /* jumbo */
@@ -64,7 +65,6 @@ header{
 }
 
 #jumbo{
-    margin: 20px;
     width: 60%;
 
     /* debug */
@@ -104,8 +104,49 @@ header{
 
     /* debug */
     background-color: #218b21;
+    height: 500px;
 }
 
+footer{
+    background-color:#23272a;
+}
+.container-footer{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
 
+    /* debug */
 
-/* successivamente cambiare classi colore con classi corrette da pagina */
+}
+
+.website-link{
+    width: 20%;
+
+    /* debug */
+    background-color: #f08180;
+    border: 1px dashed black;
+    height: 300px;
+
+}
+
+.footer-nav{
+    width: 15%;
+    
+    /* debug */
+    background-color: #20b3aa;
+    border: 1px dashed white;
+    height: 300px;
+}
+
+.end-box{
+    margin-top: 10px;
+    width: 80%;
+    
+    /* debug */
+    background-color: #7ffed4; 
+    height: 50px;  
+}
+    
