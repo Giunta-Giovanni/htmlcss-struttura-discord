@@ -12,10 +12,8 @@ header{
 
 /* header */
 .container-header{
-    /* flex */
     display: flex;
     justify-content: center;
-
     padding: 10px;
     margin: 0 auto;
     width: 80%;
@@ -37,12 +35,25 @@ header{
 
 /* navigation section */
 #nav-section{
+    display: flex;
+    justify-content: center;
     flex-grow: 1;
+}
 
+ul li{
+    list-style: none;
+}
+
+ul > li > a {
+    color: black;
+    text-decoration: none;
+    
 }
 
 /* login section */
 #login-section{
+    display: flex;
+    justify-content: flex-end;
     width: 20%;
 }
 
@@ -114,7 +125,7 @@ footer{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 5px;
+    padding: 10px;
     padding-bottom: 20px;
     border-bottom: 1px solid white;
 
@@ -142,11 +153,24 @@ footer{
 }
 
 .end-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 10px;
     width: 80%;
-    
+
     /* debug */
     background-color: #7ffed4; 
     height: 50px;  
+}
+
+.end-box div{
+    padding:3px;
+
+    /* debug */
+    background-color: #feb6c1;
+    font-size: 15px;
+    border: 1px dashed black;
+ 
 }
     
