@@ -6,30 +6,25 @@
 
 /* General */
 header{
-
-    /* debug */
-    background-color: #add8e7;   
+    background-color: #add8e7; 
+    padding: 0 10%;
 }
 
 /* header-contenitore */
-.container-esterno{
+.container-header{
     display: flex;
-    padding: 10px;
-}
-
-.container-interno{
-    display: flex;
-    align-items:center;
-    justify-content: space-around;
+    justify-content: center;
+    padding: 10px;z
 }
 
 .item-header{
-    /* debug */
-    background-color: #daa51c;
     padding: 5px;
+    border: 1px dashed black;
+    background-color: #daa51c;
+
+    /* debug */
     height: 30px;
     width: 50px;
-    border: 1px dashed black;
 }
 
 /* logo section*/
@@ -40,27 +35,40 @@ header{
 /* navigation section */
 #nav-section{
     flex-grow: 1;
+
 }
 
-#link-navigazione{
-    display: flex;
-}
-
-ul{
-    list-style: none;
-}
-
-ul>li>a {
-    text-decoration: none;
-    color: black;
-    padding: 0 5px;
-}
 
 /* login section */
 #login-section{
-    display: flex;
-    justify-content: flex-end;
     width: 20%;
+}
+
+/* main */
+.container-main{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#section-jumbo{
+    padding:20px top;
+    /* debug */
+    background-color: #00018b;
+    border: 1px dashed black;
+}
+
+#jumbo{
+    margin: 20px;
+    width: 60%;
+    background-color: #ef82ed;
+    /* debug */
+    height: 250px;
+}
+
+/* layout 1 */
+.layout {
+    
 }
 
 
