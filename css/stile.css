@@ -6,25 +6,28 @@
 
 /* General */
 header{
+    /* debug */
     background-color: #add8e7; 
-    padding: 0 10%;
 }
 
-/* header-contenitore */
+/* header */
 .container-header{
+    /* flex */
     display: flex;
     justify-content: center;
-    padding: 10px;z
+
+    padding: 10px;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .item-header{
     padding: 5px;
-    border: 1px dashed black;
-    background-color: #daa51c;
 
     /* debug */
+    background-color: #daa51c;
+    border: 1px dashed black;
     height: 30px;
-    width: 50px;
 }
 
 /* logo section*/
@@ -38,11 +41,11 @@ header{
 
 }
 
-
 /* login section */
 #login-section{
     width: 20%;
 }
+
 
 /* main */
 .container-main{
@@ -51,8 +54,10 @@ header{
     padding: 20px;
 }
 
+/* jumbo */
 #section-jumbo{
     padding:20px top;
+    
     /* debug */
     background-color: #00018b;
     border: 1px dashed black;
@@ -61,17 +66,46 @@ header{
 #jumbo{
     margin: 20px;
     width: 60%;
-    background-color: #ef82ed;
+
     /* debug */
+    background-color: #ef82ed;
     height: 250px;
 }
 
-/* layout 1 */
-.layout {
+.grey{
+    background-color: #d3d3d3;
+}
+
+.box {
+    width: 80%;
+
+    /* debug */
+    height: 300px;
+    border: 1px dashed black;
     
+}
+
+.image-box{
+    width: 55%;
+
+    /* debug */
+    background-color: #1e90ff;
+   
+}
+
+.text-box{
+    width: 25%;
+
+    /* debug */
+    background-color: #ffc0ca;
+}
+
+.full-box{
+
+    /* debug */
+    background-color: #218b21;
 }
 
 
 
-
-
+/* successivamente cambiare classi colore con classi corrette da pagina */
