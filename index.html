@@ -10,13 +10,13 @@
     <header>
 
         <!-- contenitore esterno -->
-         <div class="container-header">
+         <nav class="container-header">
 
             <!-- logo -->
             <div class="item-header" id="logo-section">logo</div>
 
             <!-- barra di navigazione -->
-            <nav class="item-header" id="nav-section">
+            <div class="item-header" id="nav-section">
                 <ul>
                     <li>
                         <a href="#">link</a>
@@ -26,9 +26,9 @@
                         <a href="#">link</a>
                     </li>
                 </ul>
-            </nav> 
+            </div> 
             <div class="item-header" id="login-section">login</div>
-         </div>
+        </nav>
     </header>
 
     <!-- contenuto principale -->
@@ -50,8 +50,8 @@
         </section>
 
         <!-- 2nd layout -->
-        <section> 
-            <div class="container-main grey ">
+        <section class="bg-grey"> 
+            <div class="container-main ">
                 <div class="box text-box"></div>
                 <div class="box image-box"></div>
             </div>
@@ -65,8 +65,9 @@
             </div>
         </section>     
         
-        <section> 
-            <div class="container-main grey ">
+        <!-- 4th layout -->
+        <section class="bg-grey"> 
+            <div class="container-main">
                 <div class="box full-box"></div>
             </div>
         </section>
@@ -84,6 +85,8 @@
         </nav>
 
         <!-- parte inferiore footer -->
+
+        <!-- eliminare il div end box e riunire la classe con quella sopra -->
         <div class="container-footer">
             <div class="end-box">
                 <div>Logo</div>
